@@ -1,0 +1,27 @@
+{
+  "name": "display_gallery",
+  "version": "1.0.0",
+  "description": "This is a simple application to learn authentication, authorisation and MangoDB with ejs templating engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "node server.js",
+    "development": "nodemon server.js"
+  },
+  "author": "Shobhit Tewari",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.10",
+    "path": "^0.12.7"
+  }
+}
